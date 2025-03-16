@@ -20,7 +20,7 @@ jobs:
       - checkout
       - run:
           name: Build Docker Image
-          command: docker build -t lachmandas1/circleci_image .
+          command: docker build -t lachmandas1/devsecops_assignment_2 .
       - run:
           name: Push Docker Image to Docker Hub
           command: |
